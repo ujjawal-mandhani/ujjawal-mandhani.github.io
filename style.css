@@ -1,0 +1,32 @@
+body{
+	margin: 0px;	
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 4px solid blue;
+	border-right: 4px solid blue;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.images{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: 1.0s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
